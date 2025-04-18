@@ -1,0 +1,15 @@
+# Ignora dipendenze Node
+/backend/node_modules/
+/frontend/node_modules/
+
+# Ignora file di environment
+/backend/.env
+/frontend/.env
+
+# Ignora build di React
+/frontend/build/
+
+# Log e altri file temporanei
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
