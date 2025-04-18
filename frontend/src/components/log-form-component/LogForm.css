@@ -1,0 +1,41 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label span {
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-button {
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.previous-log {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #555;
+}

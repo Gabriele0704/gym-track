@@ -1,0 +1,30 @@
+.import-plan-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .import-plan-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .import-plan-container input[type="file"] {
+    margin-bottom: 1rem;
+  }
+  .import-plan-summary {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #333;
+  }
+  .import-plan-day {
+    margin-top: 1rem;
+  }
+  .import-plan-day h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  .import-plan-day ul {
+    padding-left: 1.25rem;
+  }
